@@ -16,7 +16,7 @@ spec:
       - name: project-k8s
         image: techiepawan/project-k8s:latest
       imagePullSecrets:
-        - name: regcred
+      - name: regcred
         ports:
         - containerPort: 8080  
 
