@@ -15,10 +15,10 @@ spec:
       containers:
       - name: project-k8s
         image: techiepawan/project-k8s:latest
+        ports:
+        - containerPort: 8080  # Corrected indentation here
       imagePullSecrets:
       - name: regcred
-        ports:
-        - containerPort: 8080  
 
 ---
 apiVersion: v1
@@ -32,4 +32,4 @@ spec:
   ports:
   - protocol: TCP
     port: 80
-    targetPort: 8080 
+    targetPort: 8080
