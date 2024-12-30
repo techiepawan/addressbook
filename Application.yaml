@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: project-k8s
-        image: tampoohoonm/project-k8s:latest
+        image: techiepawan/project-k8s:latest
         ports:
         - containerPort: 8080  
 
