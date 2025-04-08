@@ -14,8 +14,7 @@ spec:
     spec:
       containers:
       - name: project-k8s
-    #    image: 879381250162.dkr.ecr.us-east-1.amazonaws.com/privaterepo:latest
-          image: techiepawan/project-k8s:latest
+        image: techiepawan/project-k8s:latest
         ports:
         - containerPort: 8080  # Corrected indentation here
       
